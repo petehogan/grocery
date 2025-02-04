@@ -2,7 +2,7 @@ import os
 from openai import OpenAI
 from fastapi import FastAPI
 from pydantic import BaseModel
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = ''
 app = FastAPI()
 #client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
